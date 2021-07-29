@@ -36,16 +36,38 @@
                                 consequat
                                 duis <br> enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                             </p>
-                            <button type="button" class="btn rounded ps-4 pe-4 text-white btn-header-color"
-                                data-bs-toggle="tooltip" data-bs-placement="top"
-                                title="I am trying to be a web developer.">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn button-color px-3" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
                                 Purchase
                             </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Honda CBR</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Do you want to change something in website?
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-12 mt-5 mb-5 py-5">
                         <div class="ms-5">
-                            <img class="img-fluid" src="images/header-bike.png" alt="">
+                            <img class="img-fluid w-100" src="images/header-bike.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -252,14 +274,15 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col-lg-4 col-sm-12">
                     <div class="card h-100 border-0 shadow-lg rounded p-4">
-                        <img style="height: 350px;width: 350px;" src="images/r15.jpg" class="card-img-top" alt="...">
+                        <img class="p-4" style="height: 350px;width: 350px;" src="images/r15.jpg" class="card-img-top"
+                            alt="...">
                         <div class="card-body">
                             <h5 class="card-title">R15 V3</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="ms-3">
-                            <button type="button" class="btn btn-secondary">Read More</button>
+                            <button type="button" class="btn button-color">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -272,7 +295,7 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="ms-3">
-                            <button type="button" class="btn btn-secondary">Read More</button>
+                            <button type="button" class="btn button-color">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -285,14 +308,45 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="ms-3">
-                            <button type="button" class="btn btn-secondary">Read More</button>
+                            <button type="button" class="btn button-color">Read More</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="container">
-
+        <section class="container my-5">
+            <h1 class="text-center fw-bold my-4"><span class="text-color">Special </span>Advice</h1>
+            <div class="row border-0 bg-header-color">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="">
+                        <div class="card-body">
+                            <h5 class="card-title text-white fw-bold">How to buy a bike</h5>
+                            <p class="card-text text-white fw-light">If you want to know about the sports bike then you
+                                have to
+                                read some
+                                blogs for more details.You can click the below button it will help to go in your
+                                destination.
+                            </p>
+                            <a href="#" class="btn button-color mt-5">Click Here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="">
+                        <div class="card-body">
+                            <h5 class="card-title text-white fw-bold">How to ride a bike</h5>
+                            <p class="card-text text-white fw-light">Pull the clutch lever, press the shifter down to
+                                first gear,
+                                release
+                                the clutch slowly, and gently twist the throttle. As the bike gains forward momentum,
+                                put your feet up on the pegs. Of course, you won't be riding in a straight line. You'll
+                                need to know how to steer your motorcycle.For more details click the button.
+                            </p>
+                            <a href="#" class="btn button-color">Click Here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <!-- footer part -->
